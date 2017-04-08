@@ -1,13 +1,12 @@
 * {
-    box-sizing:;
+    box-sizing: ;
 }
 
-body{
+body {
     background-image: url("../images/cheap_diagonal_fabric.png");
-    background-repeat:repeat;
-    background-position:center;
+    background-repeat: repeat;
+    background-position: center;
 }
-
 
 header {
     height: 90px;
@@ -17,17 +16,16 @@ header {
     border-bottom-width: 1px;
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 20pt;
+    font-size: 23pt;
 }
-
-
 
 nav {
     width: 100%;
-    position: fixed;
     left: 0;
     top: 0;
     right: 0;
@@ -40,56 +38,51 @@ nav {
     margin-left: 150px;
 }
 
-.brand h1{
-    float:left;
+.brand h1 {
+    float: left;
     width: 250px;
     height: 37px;
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
     padding: 20pt;
-
 }
 
 .links {
-    float:right;
+    float: right;
     padding-top: 30px;
     font-size: 14pt;
 }
 
-.links a{
-    margin-left: 20px;
+.links a {
+    margin-left: 25px;
+    color: #4aaaa5;
+    font-size: 25px;
 }
-
-
-
-
 
 .container {
     width: 960px;
     height: 550px;
     float: left;
     margin-left: 150px;
-    
 }
 
-.aboutMe{
+.aboutMe {
     width: 650px;
     height: 475px;
     float: left;
-    
     border: #dddddd;
     background-color: #ffffff;
     margin-top: 55px;
+
 }
 
 .aboutMe h2 {
-    border-bottom: #dddddd
-    border-width: 5px;
     background-color: #ffffff;
-    padding: 30px;
+    padding: 20px 0px 20px 30px;
     border-style: solid;
     text-align: left;
+    border-bottom-color: #dadada;
 }
 
 .aboutMeImage {
@@ -102,7 +95,6 @@ nav {
 .aboutMeDes {
     padding-left: 30px;
 }
-
 
 .connectWithMe {
     float: left;
@@ -117,23 +109,28 @@ nav {
     height: 50px;
     width: 50px;
     float: left;
+    padding-left: 12%;
+    padding-top: 13%;
 }
 
 .linkedinIcon {
     height: 50px;
     width: 50px;
     float: left;
-
+    padding-left: 12%;
+    padding-top: 13%;
 }
 
 .stackIcon {
     height: 50px;
     width: 50px;
     float: left;
+    padding-left: 10%;
+    padding-top: 13%;
 }
 
-p {    
-    color: #777777;
+p {
+    color: #021625;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 12pt;
     padding-right: 5px;
@@ -148,40 +145,58 @@ aside {
 
 .contactForm {
     text-align: left;
-    font-size: 16px;
+    font-size: 20px;
     padding: 30px;
-    border-top: #dddddd;
-    border-top-style: solid;
-    border-top-width: 4px;
+}
+
+.Name, .Email, .Message{
+    width: 80%;
+    font-size: 20px;
+
+}
+
+.Message{
+    padding-bottom: 5%;
 }
 
 .submitButton {
     background-color: #4aaaa5;
+    width: 20%;
+    font-size: 20px;
 }
 
 .portfolioContainer {
     width: 650px;
-    
-    float: left; 
+    float: left;
     border: #dddddd;
     background-color: #ffffff;
-    margin-top: 55px; 
+    margin-top: 55px;
+}
+
+.portfolioContainer h2{
+    padding: 20px 0px 20px 30px;
 }
 
 h2 {
-    border-bottom: #dddddd
-    border-width: 5px;
+    border-bottom: #dadada; 
     background-color: #ffffff;
     padding: 30px;
     border-style: solid;
     text-align: left;
 }
 
-.portfolioImage {
-    width: 250px;
-    height: 150px;
-    padding: 20px 30px;
+.portfolioApp{
+    
 }
+
+.portfolioImage {
+    
+    font-size: 25px;
+    padding: 20px;
+    width: 20%;
+}
+
+
 
 h3 {
     color: #4aaaa5;
@@ -192,9 +207,8 @@ h3 {
     text-align: center;
     padding-top: 19px;
     padding-bottom: 19px;
-    border-bottom: black;
-    border-style: solid;color: #4aaaa5;
-    
+    border-bottom: #dadada;
+    border-style: solid;
 }
 
 .footercontainer {
@@ -205,7 +219,7 @@ h3 {
     text-align: center;
     position: fixed;
     bottom: 0;
-    width:100%;
+    width: 100%;
     clear: both;
     border-top: #4aaaa5;
     border-top-width: 10px;
@@ -216,6 +230,3 @@ h3 {
     padding: 37px 0px;
     color: #ffffff;
 }
-
-
-
