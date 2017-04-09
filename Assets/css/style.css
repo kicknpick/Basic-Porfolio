@@ -167,6 +167,7 @@ aside {
 
 .portfolioContainer {
     width: 650px;
+    height: auto;
     float: left;
     border: #dddddd;
     background-color: #ffffff;
@@ -186,14 +187,21 @@ h2 {
 }
 
 .portfolioApp{
-    
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    margin-bottom: 20px;  
 }
 
-.portfolioImage {
-    
-    font-size: 25px;
-    padding: 20px;
-    width: 20%;
+.portfolioImage{
+    width: 75%;
+    height: auto;
+}
+
+.portfolioText {
+    font-size: 16px;
+    margin: 0px 5% 0px 5%;
+    text-align: center;
 }
 
 
